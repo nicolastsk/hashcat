@@ -1,0 +1,17 @@
+$zip2john kvirika.zip
+
+$zip2john kvirika.zip > kvirika.hash
+
+$john --format=zip kvirika.hash
+
+$john kvirika.hash
+
+.........
+
+$sudo unshadow /etc/passwd /etc/shadow > botnet
+
+$john botnet
+
+$john --format=crypt --users=kvirika --incremental=digits botnet
+
+$john --wordlist=rockyou.txt --format=crypt --users=kvirika --incremental=digits botnet
