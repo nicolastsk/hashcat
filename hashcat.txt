@@ -23,6 +23,8 @@ es air paili .cap. es unda gadavaqciot hc.22000 failad ro hashcatma waikitxos da
 
 shevdivart saitze - https://hashcat.net/cap2hashcat/ da avtvirtavt .cap fails. gadavaqcevt .hc22000 failad da chamovtvirtavt
 
+https://hashcat.net/cap2hashcat/
+
 hashcat.exe -d 1 -m 22000 395733_1698859845.hc22000 -a 3 ?d?d?d?d?d?d?d?d 
 
 
